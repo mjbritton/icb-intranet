@@ -12,7 +12,7 @@
 	},
 	"wptheme": {
 		"publicPath": "/wp-content/themes/icb-intranet/build/",
-		"proxyURL": "https://lscicb-intranet.dev"
+		"proxyURL": "https://lscicb-intranet.local"
 	},
 	"repository": {
 		"type": "git",

@@ -22,12 +22,12 @@ function my_theme_enqueue_styles()
 function theme_files()
 {
 
-    if (strstr($_SERVER['SERVER_NAME'], 'localhost:3000')) {
+    if (strstr($_SERVER['SERVER_NAME'], 'lscicb-intranet.local')) {
         wp_enqueue_script('main-theme-js', 'http://192.168.1.3:3000/bundled.js', null, '1.1', true);
     } else {
         wp_enqueue_script('our-vendors-js', get_theme_file_uri('/bundled-assets/vendors~scripts.225da0fb8ee436ef62fc.js'), null, '1.0', true);
         wp_enqueue_script('main-theme-js', get_theme_file_uri('/bundled-assets/scripts.920183adf1e07dfbd303.js'), null, '1.0', true);
-        wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.cd0a2f1d7cf19eea5b12.css'));
+        wp_enqueue_style('our-main-styles', get_theme_file_uri('/bundled-assets/styles.8c5b220bf6f482881a90.css'));
     }
 
     wp_localize_script('main-theme-js', 'themeData', array(
