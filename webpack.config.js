@@ -118,6 +118,7 @@ if (currentTask == "devFast") {
     open: true,
     hot: 'only',
     port: 3000,
+		host: '192.168.1.3',
     allowedHosts: 'all',
     proxy: {
       '/': {
