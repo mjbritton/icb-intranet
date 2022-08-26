@@ -37,3 +37,7 @@ function theme_files()
 }
 
 add_action('wp_enqueue_scripts', 'theme_files');
+
+// Additional functions
+
+require get_theme_file_path('/inc/functions/compress.php');
